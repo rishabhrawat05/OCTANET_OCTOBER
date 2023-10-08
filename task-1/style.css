@@ -1,0 +1,202 @@
+@font-face {
+    font-family: mon;
+    src: url(./Montserrat-Regular.ttf);
+}
+@font-face {
+    font-family: jer;
+    src: url(./Team-Jersey-95-Demo.ttf);
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html body{
+    height: 100%;
+    width: 100%;
+}
+#page1{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./image3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    overflow: hidden;
+    position: relative;
+}
+#box{
+   
+    height: 150%;
+    width: 70%;
+    rotate: 25deg;
+    position: absolute;
+    left: -35%;
+    top:-40%;
+    border: 7px dashed white;
+    background-image: url(./back.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+#overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.557);
+   
+}
+#page1 img{
+    height: 100%;
+    position: absolute;
+    left: -15%;
+    bottom: -10%;
+}
+#page1 #nav{
+    height: 10%;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    font-size: 1.2vw;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    font-weight: 100;
+    font-family: mon;
+   
+}
+#nav h5:hover{
+    scale: 1.2;
+}
+#nav h4:hover{
+    scale: 1.2;
+}
+#nav h5{
+    color:black;
+    font-size: 1.2vw;
+    transition: all ease 0.5s;
+    font-family: mon;
+}
+#nav h4{
+    transition: all ease 0.5s;
+}
+#overlay #info{
+    
+    height: 50%;
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+    text-align: center;
+    font-size: 2.5vw;
+    color:#70e000;
+    font-family: jer;
+    line-height: 70px;
+}
+#info h3{
+    font-size: 2.2vw;
+}
+#info p{
+    color: white;
+    font-family: mon;
+    font-size: 1.2vw;
+    line-height: 30px;
+}
+button{
+    position: absolute;
+    bottom: 5%;
+    right: 25%;
+    padding:18px 25px;
+    background-color: #70e000;
+    color: #004b23;
+    font-size: 1.8vw;
+    font-family:mon;
+    font-weight: 900;
+    outline: none;
+    border: none;
+    transition: all ease 0.5s;
+}
+button:hover{
+    box-shadow: 0px 4px 15px -5px #70e000;
+}
+#social{
+    height: 10%;
+    width: 25%;
+    position: absolute;
+    bottom: 5%;
+    right: 20%;
+    font-size: 2.5vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #70e000;
+    
+}
+#social i{
+    transition: all ease 0.5s;
+}
+#social i:hover{
+    scale:1.2;
+}
+#page2{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./image1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover ;
+    overflow: hidden;
+    position: relative;
+}
+#overlay1 #box1{
+   
+    height: 150%;
+    width: 70%;
+    rotate: -25deg;
+    position: absolute;
+    left: -32.8%;
+    top:0%;
+    border: 7px dashed white;
+    background-image: url(./back.jpg);
+    background-size: cover;
+    background-position: center;
+    
+}
+#page2>#overlay1{
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.557);
+   
+}
+#page2 img{
+    height: 100%;
+    position: absolute;
+    left: -18%;
+    bottom: -10%;
+}
+#overlay1 #info1{
+    
+    height: 50%;
+    width: 63%;
+    position: absolute;
+    top: 50%;
+    right: 0%;
+    transform: translate(0%,-50%);
+    text-align: center;
+    font-size: 2.5vw;
+    color:#70e000;
+    font-family: jer;
+    line-height: 70px;
+}
+#info1 h3{
+    font-size: 2.2vw;
+    text-transform: uppercase;
+}
+#info1 p{
+    color: white;
+    font-family: mon;
+    font-size: 1.2vw;
+    line-height: 30px;
+}
